@@ -1,4 +1,4 @@
-<h1>Windows Server infrastructure using Hyper-V</h1>
+<h1>Windows Server Infrastructure using Hyper-V</h1>
 <p>In this project, I set up windows server infrastructure using Hyper V - a Microsoft's hardware virtualization product. This infrastructure includes an Active Directory User and Computer server, a Member server and a Client computer</p>
 <h3>*Enabling Hyper-V for use on Windows 10 </h3>
 <p>1. To enable Hyper V for use on my Windows 11 Pro, I did the following; From the start charm, searched for Control Panel, then clicked on Programs </p>
