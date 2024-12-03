@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/efc33d99-e7af-47c1-971f-ef100af1edd8)<h1>Windows Server Infrastructure using Hyper-V</h1>
+<h1>Windows Server Infrastructure using Hyper-V</h1>
 <p>In this project, I set up windows server infrastructure using Hyper V - a Microsoft's hardware virtualization product. This infrastructure includes an Active Directory User and Computer server, a Member server and a Client computer</p>
 <h3>*Enabling Hyper-V for use on Windows 10 </h3>
 <p>1. To enable Hyper V for use on my Windows 11 Pro, I did the following; From the start charm, searched for Control Panel, then clicked on Programs </p>
@@ -98,11 +98,38 @@
 
 <br>
 
+<h3>Windows Server(MS1)</h3>
+<p> Installed Windows server(MS1) following the same steps above used for installing ADDS.</p>
+<p align="center"><img src="https://i.imgur.com/BNgaAy0.png" height="50%" width="50%" alt="image"/>
 
+<p>Also configured MS1 the same way i configured ADDS Server. Then input the administrator's password to login</p>
+<p align="center"><img src="https://i.imgur.com/dJqUpug.png" height="50%" width="50%" alt="image"/>
 
+<h3>To Assign a unique IP to MS1</h3>
+<p>Go to Network & Sharing Center on your computer, Then Ethernet. On the Ethernet status’ page, click on Properties, On the Ethernet Properties page, double click on Internet Protocol Version 4(TCP/IPv4) , select "Use the following IP address" and type in the IP Address, also select Use the following DNS server addresses and type it in.</p>
+<p align="center"><img src="https://i.imgur.com/klknNBe.png" height="50%" width="50%" alt="image"/>
 
+<h3>To rename the Windows Server 2019 as Member Server(MS1) and Join to ADDS</h3>
+<p>1. Click on File and Folder, right click on this PC and click on Properties. This opens Control panel>system and security>system page. There, click on Advanced system settings. On the system properties’ page, select on the Computer name tab, then click Change. On the computer name/domain changes page, type in the Computer name and click and on the member of, input the domain name and click OK</p>
+<p align="center"><img src="https://i.imgur.com/EsF3pDr.png" height="50%" width="50%" alt="image"/>
 
+<p>2. You are required to type in the Administrator password, then click OK</p>
+<p align="center"><img src="https://i.imgur.com/2eTDHKF.png" height="50%" width="50%" alt="image"/>
 
+<p>3. You are greeted with the Welcome to the domain, just click OK</p>
+<p align="center"><img src="https://i.imgur.com/1622CJi.png" height="50%" width="50%" alt="image"/>
 
+<p>4. Then you are required to restart the computer to apply the changes</p>
+<p align="center"><img src="https://i.imgur.com/s1DAXb4.png" height="50%" width="50%" alt="image"/>
 
-<p align="center"><img src="" height="50%" width="50%" alt="image"/>
+<br>
+
+<h3>Installing Windows 10</h3>
+<p> Installed Windows 10 following almost the same steps above used for installing ADDS and MS1.</p>
+<p align="center"><img src="https://i.imgur.com/rDDajgA.png" height="50%" width="50%" alt="image"/>
+
+<p>Also configured Windows 10 the same way i configured ADDS Server. Few differences are the Activate Windows page, clicked on "I don't have a product key", On the Select the operating system you want to install, chose Windows 10 pro. After the installation is completed, you are presented with series of setup options to choose e.g Region, Keyboard layout, account setup and pin</p>
+<p align="center"><img src="https://i.imgur.com/ahAHiZS.png" height="50%" width="50%" alt="image"/>
+
+<br>
+
