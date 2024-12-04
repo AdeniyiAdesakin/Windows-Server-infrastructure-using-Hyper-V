@@ -132,4 +132,28 @@
 <p align="center"><img src="https://i.imgur.com/ahAHiZS.png" height="50%" width="50%" alt="image"/>
 
 <br>
+<br>
+<br>
+
+<h1>Joining Windows 10 to the Domain eventually(After ADDS is Installed)</h1>
+<h3>*First before we join Windows 10 to ADDS, I am going to change the IP address first.</h3>
+<p><b>To assign a unique IP address Windows 10</b>  - Go to Network & Sharing Center on your computer. Then Ethernet. On the Ethernet status’ page, click on Properties, On the Ethernet Properties page, double click on Internet Protocol Version 4(TCP/IPv4) , select Use the following IP address and type in the IP Address, also select Use the following DNS server addresses and type it in.</p>
+<p align="center"><img src="https://i.imgur.com/qpvE8KM.png" height="50%" width="50%" alt="image"/>
+
+<h3>To rename Windows 10 and join to ADDS</h3>
+<p>1. Click on File and Folder, right click on this PC and click on Properties. This opens Control panel>system and security>system page. There, click on Advanced system settings. On the system properties’ page, select on the Computer name tab, then click Change. </p>
+<p align="center"><img src="https://i.imgur.com/pDl3U9q.png" height="50%" width="50%" alt="image"/>
+
+<p>2. On the computer name/domain changes page, type in the Computer name and click and on the member of, input the domain name and click OK</p>
+<p align="center"><img src="https://i.imgur.com/4qT4xHr.png" height="50%" width="50%" alt="image"/>
+
+<p>3. On the Computer Name/Domain name, input the  domain Administrator and password, then click OK</p>
+<p align="center"><img src="https://i.imgur.com/kuE0iDF.png" height="50%" width="50%" alt="image"/>
+
+<p>4. You are greeted with Welcome to the domain, just click OK</p>
+<p align="center"><img src="https://i.imgur.com/TMDAU7f.png" height="50%" width="50%" alt="image"/>
+
+<p><b>P.S</b> - You will be required to restart your computer for changes to apply</p>
+
+
 
